@@ -43,3 +43,11 @@ li:first-child::first-letter{
 a[title="BCIT homepage"] {
     background-color: yellow;
 } */
+
+img{
+    float: left
+}
+
+p.below{
+    clear: both;
+}
