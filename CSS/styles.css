@@ -1,5 +1,8 @@
-div h2{
+/* div h2{
     font-style: italic;
+    animation-name: spinBorder;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 h2 + p{
@@ -10,3 +13,12 @@ ul.list > li{
     border-bottom: 1px grey solid;
     list-style: none;
 }
+
+@keyframes spinBorder{
+    0% {border-top: 0px red solid;}
+    10% {border-top: 4px red solid;}
+    25% {border-left: 4px red solid;}
+    50% {border-bottom: 4px red solid;}
+    75% {border-right: 4px red solid;}
+    100% {border: 0px red;}
+} */
