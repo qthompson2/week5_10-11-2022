@@ -22,3 +22,15 @@ ul.list > li{
     75% {border-right: 4px red solid;}
     100% {border: 0px red;}
 } */
+
+li a:link {
+    color: green;
+}
+
+li a:visited {
+    color: red;
+}
+
+li a:hover {
+    color: pink;
+}
