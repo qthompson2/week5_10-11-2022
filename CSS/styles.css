@@ -34,3 +34,7 @@ li a:visited {
 li a:hover {
     color: pink;
 }
+
+ul > li::first-letter {
+    font-weight: bold;
+}
